@@ -1,2 +1,3 @@
 # Compressive-sensing
 A compressed sensing method based on L-1 optimization for 1-D signals and 2-D images has been created, with multiple transforms used to identify the optimum recovery technique. 
+The signal is randomly sampled, and the samples are utilized to construct a sparse representation of the signal in the transform domain. The signal in the transform domain is fitted with its L-1 norm and then the inverse transform is used to obtain the reconstructed signal. The sky is sparsely sampled by the interferometer baselines in radio astronomy, making compressive sampling a viable option for sky picture reconstruction.
